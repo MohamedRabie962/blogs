@@ -1,6 +1,6 @@
 <?php
 global $conn;
-include 'dp.php';
+include 'db.php';
 
 // Add Post, Comment, or Reply
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action'])) {
